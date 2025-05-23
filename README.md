@@ -1,96 +1,74 @@
-# Monitoramento de Preços
+# 🚀 Monitoramento de Preços
 
-## Sobre
+👉 **[Acesse o site aqui](https://monitoramento-de-pre-os.vercel.app/)**
 
-Este projeto é uma aplicação React para monitoramento de preços de produtos, consumindo dados de uma API pública.  
-Ele permite buscar produtos, visualizar detalhes, acompanhar o histórico de preços em um gráfico moderno e exibe alertas quando há variações significativas.
+Aplicação moderna de **monitoramento de preços** de produtos, desenvolvida com **React** e **Recharts**, consumindo dados de uma **API pública**.
 
-O design é moderno, responsivo e focado em uma ótima experiência para o usuário.
-
----
-
-## Tecnologias
-
-- React.js
-- Recharts (para gráficos)
-- Fetch API
-- CSS-in-JS (estilos inline)
-- API pública: [Fake Store API](https://fakestoreapi.com/)
+Permite **buscar**, **visualizar detalhes** e **acompanhar o histórico de preços** em gráficos interativos, além de exibir **alertas inteligentes** para variações significativas.
 
 ---
 
-## Funcionalidades
+## ✨ Funcionalidades
 
-- Busca em tempo real por produtos pelo nome
-- Listagem com imagens, títulos e preços formatados
-- Visualização detalhada do produto selecionado
-- Gráfico de linha mostrando variação simulada do preço nos últimos 7 dias
-- Alerta visual para variações maiores que 15% no preço
-- Layout moderno, com cores e efeitos visuais agradáveis
+✅ Busca dinâmica de produtos  
+✅ Exibição de imagens, descrições e preços atualizados  
+✅ Gráfico interativo com variação de preços nos últimos 7 dias  
+✅ Alerta visual para variações superiores a 15%  
+✅ Layout **moderno**, **responsivo** e com excelente UX
 
 ---
 
-## Instalação
+## 🛠️ Tecnologias e Ferramentas
 
-1. Clone o repositório
+- **React.js** – Front-end reativo e modular
+- **Recharts** – Gráficos dinâmicos e elegantes
+- **Fetch API** – Consumo de dados da API
+- **CSS-in-JS** – Estilização inline prática e direta
+- **Fake Store API** – Fonte pública de dados para simulação
 
-```bash
-git clone https://github.com/seuusuario/monitoramento-precos.git
-cd monitoramento-precos
+---
 
-Instale as dependências
+## 🎯 Estrutura de Componentes
 
-bash
-Copiar
-Editar
-npm install
-Execute o projeto
+- `App.jsx` – Componente principal
+- `SearchBar.jsx` – Campo de busca inteligente
+- `ProductList.jsx` – Listagem dinâmica de produtos
+- `PriceChart.jsx` – Gráfico com histórico de preços
+- `PriceAlert.jsx` – Alerta visual de variação
 
-bash
-Copiar
-Editar
-npm start
-Abra http://localhost:3000 para ver no navegador.
+---
 
-Estrutura do Projeto
-bash
-Copiar
-Editar
-/src
-  ├─ App.jsx          # Componente principal
-  ├─ SearchBar.jsx    # Campo de busca
-  ├─ ProductList.jsx  # Lista de produtos
-  ├─ PriceChart.jsx   # Componente do gráfico de preços
-  ├─ PriceAlert.jsx   # Alerta de variação de preço
-Como usar
-Digite no campo de busca para filtrar produtos
+## 💡 Como funciona?
 
-Clique em um produto para ver detalhes e histórico de preços
+1. **Pesquise** pelo nome do produto.
+2. **Selecione** para visualizar detalhes e gráfico de variação.
+3. Receba um **alerta** se houver grande variação de preço.
 
-Observe o gráfico para variações nos últimos dias
+**Observações:**
 
-Se o preço variar mais de 15%, um alerta aparece
+- O histórico de preços é gerado **simulando dados** para fins de demonstração.
+- A aplicação pode ser facilmente adaptada para outras APIs ou fontes de dados reais.
 
-Customização
-As cores e fontes estão definidas inline, mas podem ser facilmente migradas para CSS ou Styled Components
+---
 
-A função de geração de histórico simula dados para demonstração, pode ser substituída por dados reais
+## 🎨 Customização
 
-A API usada é pública e gratuita, pode ser trocada por outra API conforme necessidade
+- Cores e fontes definidas inline → facilmente migráveis para **Styled Components** ou **CSS Modules**.
+- Substituição rápida da API para contextos comerciais ou acadêmicos.
 
-Licença
-Este projeto está licenciado sob a licença MIT. Sinta-se à vontade para usar e modificar!
+---
 
-Contato
-Para dúvidas, sugestões ou melhorias, entre em contato:
+## 🔗 Link do Projeto
 
-Rodolfo Vasconcellos de Souza
+👉 **[https://monitoramento-de-pre-os.vercel.app/](https://monitoramento-de-pre-os.vercel.app/)**
 
-Email: rodolfovasconcellos88@gmail.com
+---
 
-LinkedIn: linkedin.com/in/rodolfosouza88
+## 📬 Contato
 
-css
-Copiar
-Editar
-```
+Rodolfo Vasconcellos de Souza  
+[🔗 LinkedIn](https://www.linkedin.com/in/rodolfosouza88/) | 📧 rodolfovasconcellos88@gmail.com
+
+---
+
+⭐ _"Transformando dados em decisões inteligentes."_
